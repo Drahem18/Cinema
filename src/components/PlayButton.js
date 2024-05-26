@@ -17,9 +17,9 @@ function PlayButton({ movie }) {
           movie.active ? "active" : ""
         }`}
       >
-        <a href="/" className="play-btn" onClick={toggleModal}>
+        <button href="/" className="play-btn" onClick={toggleModal}>
           <FontAwesomeIcon icon={faPlay} size="2x" />
-        </a>
+        </button>
         <p>Wach Trailer</p>
       </div>
       {movie.active && (

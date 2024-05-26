@@ -7,11 +7,11 @@ function Modal({ movie, status, toggleModal }) {
       onClick={toggleModal}
       className={`movieModal ${status ? "active" : ""}`}
     >
-      <a href="/" onClick={toggleModal} className="modalClose">
+      <button href="/" onClick={toggleModal} className="modalClose">
         <i>
           <ion-icon name="close-outline"></ion-icon>
         </i>
-      </a>
+      </button>
       <iframe
         width="866"
         height="487"
