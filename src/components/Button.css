@@ -1,0 +1,26 @@
+.main-button {
+  max-height: 50px;
+  position: relative;
+  display: inline-flex;
+  gap: 10px;
+  color: #ffffff;
+  align-items: center;
+  margin-right: 15px;
+  background-color: var(--primary);
+  padding: 5px 16px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  cursor: pointer !important;
+  border: none;
+  border-radius: 5px;
+}
+
+.main-button:hover {
+  color: var(--primary) !important;
+  background-color: #ffffff !important;
+  cursor: pointer !important;
+}

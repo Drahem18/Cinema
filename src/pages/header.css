@@ -1,0 +1,99 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 38px 100px;
+  transition: 0.5s;
+  z-index: 3000 !important;
+}
+header .menue {
+  display: none;
+}
+
+header.scrolled {
+  background: rgba(0, 0, 0, 0.6);
+  border-bottom: 2px solid var(--primary);
+  border-image: linear-gradient(90deg, transparent, var(--primary), transparent)
+    30;
+  backdrop-filter: blur(20px);
+  padding: 10px 100px;
+  padding-right: 50px;
+}
+
+@media (max-width: 480px) {
+  header.scrolled {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+
+.logo {
+  font-family: "Racing Sans One", cursive;
+  font-size: 35px;
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.nav {
+  display: flex;
+  margin: 0 20px;
+}
+
+.sidebar {
+  padding: 50px 50px !important;
+  width: 350px;
+  height: 100vh;
+  position: fixed;
+  right: 0 !important;
+  top: 0 !important;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-left: auto;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sidebar .main-button {
+  margin-left: 25px;
+}
+
+.sidebar .search {
+  width: 200px !important;
+  margin: 0 !important;
+}
+.sidebar ion-icon {
+  cursor: pointer;
+}
+.sidebar.close {
+  display: none;
+}
+.sidebar.open {
+  display: flex;
+}
+
+@media (max-width: 800px) {
+  .hide-element {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .hide-some {
+    display: none !important;
+  }
+  header .menue {
+    display: block;
+  }
+}

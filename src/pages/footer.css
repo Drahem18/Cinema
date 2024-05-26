@@ -1,0 +1,80 @@
+.footer {
+  background: transparent;
+  padding: 0 0 30px 0;
+  font-size: 14px;
+}
+.footer .footer-top {
+  background: url("../images/footer-bg.jpeg") no-repeat left top;
+  background-size: contain;
+  border-top: 1px solid var(--primary);
+  border-bottom: 1px solid var(--primary);
+  padding: 60px 0 30px 0;
+}
+.footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+.footer .footer-top .footer-info .logo {
+  line-height: 0;
+  margin-bottom: 15px;
+}
+.footer .footer-top .footer-info .logo span {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: white;
+  margin-top: 3px;
+}
+.footer .footer-top .footer-info p {
+  font-size: 14px;
+  margin-top: 40px;
+
+  letter-spacing: 0px;
+  color: white;
+}
+
+.footer .footer-top .footer-info .d-flex .social-link a ion-icon {
+  color: white;
+  font-size: 25px;
+}
+.footer .footer-top .footer-info .d-flex .social-link a ion-icon:hover {
+  color: var(--primary);
+}
+
+.footer .footer-top .footer-links h4 {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.footer .footer-top .footer-contact {
+  color: white;
+}
+
+.footer .footer-top .footer-contact h4 {
+  margin-bottom: 40px;
+}
+/* .copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+} */
+
+.copyrightcCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.copyrightcCenter .copyright span {
+  padding: 0 5px;
+  letter-spacing: 1px;
+}
+.copyrightcCenter .credits a {
+  text-decoration: none;
+  color: white;
+  cursor: default;
+}
