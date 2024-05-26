@@ -21,7 +21,7 @@ function BackToTopBtn() {
 
   return (
     <a
-      href="#"
+      href="/"
       className={`back-to-top ${scroll > 100 ? "active" : ""}`}
       onClick={backToTop}
     >
